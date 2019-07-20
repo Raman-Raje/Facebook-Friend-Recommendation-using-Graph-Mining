@@ -10,3 +10,8 @@ This repositary belongs to Facebook Friend Recommendation using Graph Mining cas
 ## Performance metric:
 * Both precision and recall is important so F1 score is good choice
 * Confusion matrix
+
+## Training Dataset preperation:
+* If we consider y= 1 , if edge is present in between two nodes.
+* We will assume y = 0 , if no edge is present.
+* Generated Bad links from graph which are not in graph and whose shortest path is greater than 2
