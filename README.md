@@ -56,3 +56,16 @@ Here is the summary result,
 | Random Forest | 242          |  14       | 0.964          |   0.926       |
 
 | XGBOOST       | 248          |     10    |    1           |   0.926       |
+
+
+## Observations:
+
+1. Understanding of graph and feature engineering was the most important part of this case
+study.
+2. For Random Forest, Follow_back was the most important feature found, followed by weight,
+inter_follower and shortest_path.
+3. For XGBOOST, page_rank followed by shortest_path was the most important feature.
+4. Best result was obtained in case of XGBOOST.
+5. XGBOOST took most of time.
+6. For XGBOOST, follows_back was the most important feature. Followed by cosine_follower
+and weight_f1.
