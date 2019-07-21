@@ -51,6 +51,6 @@ We have used two models. RandomForest and XGBOOST. For both one, **Follows_back*
 Here is the summary result,
 
 
-| Model         | n_estimators | max_depth | Train f1-Score | Test f1-Score |
-| Random Forest | 242          |  14       | 0.964          |   0.926       |
+| Model         | n_estimators | max_depth | Train f1-Score | Test f1-Score |\\
+| Random Forest | 242          |  14       | 0.964          |   0.926       |\\
 | XGBOOST       | 248          |     10    |    1           |   0.926       |
