@@ -44,3 +44,16 @@ Featurization is the most important part of this case study. Below is the list o
 
   
 **All the features are calculated for both Followers and Followees**
+
+## Models:
+
+We have used two models. RandomForest and XGBOOST. For both one, **Follows_back** is the most important feature found.
+Here is the summary result,
+
+
++---------------+--------------+-----------+----------------+---------------+
+| Model | n_estimators | max_depth | Train f1-Score | Test f1-Score |
++---------------+--------------+-----------+----------------+---------------+
+| Random Forest | 242 | 14 | 0.964 | 0.926 |
+| XGBOOST | 248 | 10 | 1 | 0.926 |
++---------------+--------------+-----------+----------------+---------------+
