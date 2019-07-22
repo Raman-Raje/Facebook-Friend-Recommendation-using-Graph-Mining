@@ -72,4 +72,5 @@ and weight_f1.
 
 ## Note:
 
-you can get all the weight and excel files used in above case study from [here]{https://drive.google.com/open?id=1AuduB2ttQuSUf-b057x0PnNyXpF07HwL}
+you can get all the weight and excel files used in above case study from here...
+https://drive.google.com/open?id=1AuduB2ttQuSUf-b057x0PnNyXpF07HwL
