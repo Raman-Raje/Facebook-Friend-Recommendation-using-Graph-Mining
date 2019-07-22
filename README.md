@@ -53,9 +53,9 @@ Here is the summary result,
 
 | Model         | n_estimators | max_depth | Train f1-Score | Test f1-Score |
 
-| Random Forest | 242          |  14       | 0.964          |   0.926       |
+| Random Forest | 72         |  14       | 0.964          |   0.926       |
 
-| XGBOOST       | 248          |     10    |    1           |   0.926       |
+| XGBOOST       | 76          |     14    |    0.996          |   0.927      |
 
 
 ## Observations:
@@ -69,3 +69,7 @@ inter_follower and shortest_path.
 5. XGBOOST took most of time.
 6. For XGBOOST, follows_back was the most important feature. Followed by cosine_follower
 and weight_f1.
+
+## Note:
+
+you can get all the weight and excel files used in above case study from [here]{https://drive.google.com/open?id=1AuduB2ttQuSUf-b057x0PnNyXpF07HwL}
